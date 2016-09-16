@@ -103,22 +103,22 @@ $inputXML = @"
         Title="Kiosk Staging" Height="446" Width="329">
     <Grid HorizontalAlignment="Left" Width="324">
         <ListBox x:Name="KioskSelection" HorizontalAlignment="Left" Height="270" VerticalAlignment="Top" Width="215" Margin="55,85,0,0">
-            <RadioButton x:Name="1" Content="1"/>
-            <RadioButton x:Name="2" Content="2"/>
-            <RadioButton x:Name="3" Content="3"/>
-            <RadioButton x:Name="4" Content="4"/>
-            <RadioButton x:Name="5" Content="5"/>
-            <RadioButton x:Name="6" Content="6"/>
-            <RadioButton x:Name="7" Content="7"/>
-            <RadioButton x:Name="8" Content="8"/>
-            <RadioButton x:Name="9" Content="9"/>
-            <RadioButton x:Name="10" Content="10"/>
-            <RadioButton x:Name="11" Content="11"/>
-            <RadioButton x:Name="12" Content="12"/>
-            <RadioButton x:Name="13" Content="13"/>
-            <RadioButton x:Name="14" Content="14"/>
-            <RadioButton x:Name="15" Content="15"/>
-            <RadioButton x:Name="16" Content="16"/>
+            <RadioButton x:Name="Radio1" Content="1"/>
+            <RadioButton x:Name="Radio2" Content="2"/>
+            <RadioButton x:Name="Radio3" Content="3"/>
+            <RadioButton x:Name="Radio4" Content="4"/>
+            <RadioButton x:Name="Radio5" Content="5"/>
+            <RadioButton x:Name="Radio6" Content="6"/>
+            <RadioButton x:Name="Radio7" Content="7"/>
+            <RadioButton x:Name="Radio8" Content="8"/>
+            <RadioButton x:Name="Radio9" Content="9"/>
+            <RadioButton x:Name="Radio10" Content="10"/>
+            <RadioButton x:Name="Radio11" Content="11"/>
+            <RadioButton x:Name="Radio12" Content="12"/>
+            <RadioButton x:Name="Radio13" Content="13"/>
+            <RadioButton x:Name="Radio14" Content="14"/>
+            <RadioButton x:Name="Radio15" Content="15"/>
+            <RadioButton x:Name="Radio16" Content="16"/>
         </ListBox>
         <TextBlock x:Name="SelectionBlock" HorizontalAlignment="Left" TextWrapping="Wrap" Text="Please select the desired kiosk configuration:" VerticalAlignment="Top" Margin="90,30,0,0" Height="40" Width="180"/>
         <Button x:Name="OK" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="55,380,0,0"/>
